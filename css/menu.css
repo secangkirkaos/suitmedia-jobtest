@@ -1,0 +1,156 @@
+
+nav {
+	height: 40px;
+	width: 100%;
+	font-size: 11pt;
+	font-family: 'playfairdisplay-bold';
+	position: relative;
+}
+nav ul {
+    float: right;
+	padding: 0;
+	height: 40px;
+}
+nav li {
+	display: inline;
+	float: left;
+}
+nav a {
+	color: #fff;
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 50px;
+}
+nav li a {
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+nav li:last-child a {
+	border-right: 0;
+}
+nav a:hover, nav a:active {
+    color: #666666;
+}
+nav a#pull {
+	display: none;
+}
+
+/*Styles for screen 600px and lower*/
+@media screen and (max-width: 639px) {
+    header {
+        height: auto;
+        margin-top:0;
+    }
+	nav {
+        float: none;
+  		height: auto;
+  	}
+    nav ul {
+		display: none;
+		height: auto;
+	}
+  	nav li {
+        display: block;
+  		width: 100%;
+  		float: none;
+        background: #222222;
+  		position: relative;
+  	}
+  	nav li a {
+		border-bottom: 1px solid #444;
+		border-right: 1px solid #444;
+	}
+  	nav a {
+        color:#fff !important;
+	  	text-align: left;
+	  	width: 100%;
+	  	text-indent: 25px;
+  	}
+    nav a:hover {
+        color: #ccc !important;
+    }
+    nav a#pull {
+        float: right;
+        display: block;
+        background-color: #222222;
+        width: 60px;
+        height: 50px;
+        position: relative;
+    }
+    nav a#pull:after {
+        content:"";
+        background: url('../img/burger-menu-day.svg') no-repeat;
+        width: 30px;
+        height: 30px;
+        display: inline-block;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+    }
+}
+
+/*Styles for screen 515px and lower*/
+@media only screen and (max-width : 480px) {
+    header {
+        height: auto;
+        margin-top:0;
+    }
+    nav {
+        float: none;
+        height: auto;
+		border-bottom: 0;
+	}
+	nav ul {
+		width: 100%;
+		height: auto;
+	}
+
+	nav a#pull {
+		display: block;
+		background-color: #222;
+		width: 60px;
+		position: relative;
+	}
+	nav a#pull:after {
+		content:"";
+		background: url('nav-icon.png') no-repeat;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		position: absolute;
+		right: 15px;
+		top: 10px;
+	}
+}
+
+/*Smartphone*/
+/*@media only screen and (max-width : 320px) {
+    nav li {
+		display: block;
+		float: none;
+		width: 100%;
+	}
+    nav ul {
+		display: none;
+		height: auto;
+	}
+    nav a#pull {
+		display: block;
+		background-color: #283744;
+		width: 100%;
+		position: relative;
+	}
+	nav a#pull:after {
+		content:"";
+		background: url('nav-icon.png') no-repeat;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		position: absolute;
+		right: 15px;
+		top: 10px;
+	}
+}*/

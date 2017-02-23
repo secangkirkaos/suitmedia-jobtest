@@ -1,0 +1,69 @@
+/*==========================================================================================================================================
+/*==========================================================================================================================================
+	Day Color Setup
+============================================================================================================================================
+============================================================================================================================================*/
+body {
+    background-color: #eeeeee;
+}
+::selection {
+	color: #ffffff;
+	background-color: #5aabea;
+}
+::-moz-selection {
+	color: #ffffff;
+	background-color: #5aabea;
+}
+p {
+	color: #312f2f !important;
+}
+label {
+    color:#222 !important;
+}
+a, header nav > ul > li:hover > a,
+header nav > ul ul li:hover > a,
+header nav ul > li.active > a,
+.post-wrapper .post-tags a:hover,
+.post-wrapper .post-author .author-info h6 {
+	color: #000!important;
+}
+nav a#pull {
+    background-color: #222 !important;
+}
+nav a#pull:after {
+    background: url('../img/burger-menu-day.svg') no-repeat !important;
+}
+.color-pallets a {
+    border: 1px solid #222;
+    border-radius: 4px;
+    padding: 4px 6px;
+    background-color: #eee !important;
+}
+.color-pallets > a:hover {
+        border: 1px solid #333333;
+}
+.color-pallets a.current {
+	color:#ccc !important;
+    border: 1px solid #fff;
+    background-color: #2a2a2a;
+}
+.color-pallets a.current:hover {
+	color:#ccc;
+}
+.post-wrapper {
+	background-color:#fff !important;
+	border: 1px solid #ccc;
+}
+.post-wrapper .post-meta * {
+	color: #312f2f !important;
+}
+.post-wrapper .post-title {
+	color: #272727 !important;
+}
+.the-comment li h2, .the-comment li .the-comment-full-content h1 {
+    color: #222 !important;
+}
+.the-comment .comments ol.comments-list .comment-author-avatar img {
+    border: 1px solid #ccc !important;
+    background-color: #fff !important;
+}

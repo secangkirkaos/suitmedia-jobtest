@@ -1,0 +1,119 @@
+/*===========================================================================================
+	Responsive
+=============================================================================================*/
+
+    /*========== W I D E     S C R E E N =============*/
+
+    /* Desktop Version */
+    @media only screen and (min-width : 1024px) {
+        .the-comment {
+            float: left;
+            margin:0 50px;
+        }
+
+    }/* END OF Desktop Version */
+
+
+    /*========== M E D I U M     S C R E E N =============*/
+
+    /* Tablet Version */
+    @media only screen and (min-width : 640px) and (max-width : 1023px) {
+        .two-cols {
+            width:100%;
+            padding: 0;
+        }
+        article .post-wrapper {
+            float: none!important;
+            width: 100%!important;
+            margin-right: 0;
+            margin-left: 0;
+        }
+        article {
+            width: 100%;
+        }
+        .content-inner {
+            width: 100%;
+            padding: 0;
+        }
+        .post-wrapper {
+            border:0;
+        }
+        .the-comment .comments .form {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+    }/*end of M E D I U M  S C R E E N */
+
+
+    /*========== S M A L L     S C R E E N =============*/
+
+    /* Mobile Version */
+    @media only screen and (max-width : 639px) {
+        header {
+            height: auto;
+            margin-top:0;
+        }
+        .two-cols {
+            width:100%;
+            padding: 0;
+        }
+        article {
+            width: 100%;
+        }
+        article .post-wrapper {
+            float: none!important;
+            width: 100%!important;
+            margin-right: 0;
+            margin-left: 0;
+        }
+        .content-inner {
+            width: 100%;
+            padding: 0;
+        }
+        .post-wrapper {
+            border:0;
+        }
+        .post-wrapper .post-meta span {
+            line-height: 14px;
+        }
+        .post-wrapper .post-meta * {
+            font-size: 12px;
+        }
+        h1 {
+            font-size: 20px;
+            line-height: normal;
+        }
+        p {
+            font-size: 14px;
+            line-height: normal;
+        }
+        label {
+            font-size: 14px;
+        }
+        .post-wrapper .post-content {
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+        .the-comment .comments .journalist {
+            text-align: right;
+        }
+        .the-comment .comments .journalist h1 {
+            display: inherit;
+            padding: 0;
+        }
+        .the-comment .comments ol.comments-list .comment-author-avatar img {
+            border: 0 !important;
+            background-color: transparent !important;
+        }
+        .the-comment .comments .form {
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+        .the-comment .comments .form h2 {
+            font-size: 20px;
+        }
+        .back-to-top {
+            opacity: 0.65;
+            right: 10px;
+        }
+    }/* end of S M A L L  S C R E E N */

@@ -1,0 +1,80 @@
+/*==========================================================================================================================================
+/*==========================================================================================================================================
+	Night Mode Color Setup
+============================================================================================================================================
+============================================================================================================================================*/
+body {
+    background-color: #222222;
+    color: #ffffff;
+}
+::selection {
+	color: #cccccc;
+	background-color: #7ececf;
+}
+::-moz-selection {
+	color: #ffffff;
+	background-color: #7ececf;
+}
+a, header nav > ul > li:hover > a, header nav > ul ul li:hover > a, header nav ul > li.active > a, .post-wrapper .post-tags a:hover, .post-wrapper .post-author .author-info h6 {
+    color:#fff !important;
+}
+nav a#pull {
+    background-color: #fff !important;
+}
+nav a#pull:after {
+    background: url('../img/burger-menu.svg') no-repeat !important;
+}
+header nav > ul > li:hover > a,
+header nav > ul ul li:hover > a {
+	color: #ccc!important;
+}
+header nav > ul > li > a:hover {
+	border-color: #cccccc!important;
+}
+p {
+	color: #FFFFFF !important;
+}
+.color-pallets a:first-child {
+    color:#222 !important;
+}
+.color-pallets a {
+    border: 1px solid #999 !important;
+    border-radius: 4px;
+    padding: 4px 6px;
+    background-color: #cdcdcd !important;
+}
+.color-pallets > a:hover {
+        color: #333333;
+    }
+.color-pallets a.current {
+	color:#ccc !important;
+    border: 1px solid #fff;
+    background-color: #222 !important;
+}
+.color-pallets a.current:hover {
+	color:#ccc;
+}
+.post-wrapper .post-meta * {
+	color: #FFFFFF !important;
+}
+.post-wrapper {
+	background: #222222 !important;
+	border: 0;
+}
+.post-wrapper .post-title {
+	color:#FFFFFF !important;
+}
+
+.the-comment li p {
+    color: #312f2f !important;
+}
+.the-comment li h2, .the-comment li .the-comment-full-content h1 {
+    color:#ffffff !important;
+}
+.the-comment .comments ol.comments-list .comment-author-avatar img {
+    border: 0 !important;
+    background:transparent !important;
+}
+label {
+    color:#fff !important;
+}
